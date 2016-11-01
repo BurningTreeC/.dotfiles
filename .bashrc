@@ -106,23 +106,23 @@ fi
 
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 
-export NVM_DIR="/home/simon/.nvm"
+export NVM_DIR="$HOME.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
 
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 
 # Include Drush bash customizations.
-#if [ -f "/home/simon/.drush/drush.bashrc" ] ; then
-#  source /home/simon/.drush/drush.bashrc
+#if [ -f "$HOME.drush/drush.bashrc" ] ; then
+#  source $HOME.drush/drush.bashrc
 #fi
 
 # Include Drush completion.
-#if [ -f "/home/simon/.drush/drush.complete.sh" ] ; then
-#  source /home/simon/.drush/drush.complete.sh
+#if [ -f "$HOME.drush/drush.complete.sh" ] ; then
+#  source $HOME.drush/drush.complete.sh
 #fi
 
 # Include Drush prompt customizations.
-#if [ -f "/home/simon/.drush/drush.prompt.sh" ] ; then
-#  source /home/simon/.drush/drush.prompt.sh
+#if [ -f "$HOME.drush/drush.prompt.sh" ] ; then
+#  source $HOME.drush/drush.prompt.sh
 #fi
 
